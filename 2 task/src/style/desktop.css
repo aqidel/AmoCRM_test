@@ -1,0 +1,155 @@
+@media screen and (min-width: 1440px) {
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat.ttf);
+  }
+
+  @font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter.ttf);
+  }
+
+  body {
+    margin: 0;
+    padding-top: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1014;
+  }
+
+  #purple-light {
+    position: absolute;
+    top: -10.694vw;
+    left: 41.806vw;
+    width: 18.056vw;
+    height: 18.056vw;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(13.611vw);
+  }
+
+  header {
+    margin-bottom: 90px;
+    display: flex;
+  }
+
+  #logo-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo {
+    margin-right: 8px;
+    width: 35px;
+    height: 24px;
+  }
+
+  #logo-name {
+    width: 97px;
+    height: 15px;
+  }
+
+  #welbex p {
+    margin: 10px 0 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #E4E5EA;
+  }
+
+  #menu {
+    margin: 0 135px 0 52px;
+    width: 503px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menu p {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+  }
+
+  #phone-header-wrap {
+    margin-right: 47px;
+    width: 143px;
+  }
+
+  #phone-header {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+  }
+
+  #contacts {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  #contacts img {
+    width: 20px;
+    height: 20px;
+  }
+
+  main {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #left-column {
+    display: flex;
+  }
+
+  #left-column:nth-child(0) {
+    margin: 0;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+  }
+
+  #left-column:nth-child(1) {
+    margin: 0;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #left-column:nth-child(2) {
+    margin: 0;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+  }
+
+}
