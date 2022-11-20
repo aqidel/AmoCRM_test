@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welbex</title>
     <link rel="stylesheet" href="./src/style/desktop.css" />
+    <link rel="stylesheet" href="./src/style/mobile.css" />
   </head>
   <body>
     <div id="purple-light"></div>
+    <div id="purple-ball"></div>
+    <div id="red-ball"></div>
+    <div id="small-red-ball"></div>
     <header>
       <div id="welbex">
         <div id="logo-wrap">
@@ -24,7 +28,7 @@
         <p>Виджеты</p>
         <p>Интеграции</p>
         <p>Кейсы</p>
-        <p>Сертификаты</p>
+        <p id="header-certificates">Сертификаты</p>
       </div>
       <div id="phone-header-wrap">
         <p id="phone-header">+7 555 555-55-55</p>
@@ -36,13 +40,101 @@
       </div>
     </header>
     <main>
+      <div id="purple-light-mobile"></div>
+      <div id="red-light"></div>
+      <div id="yellow-light"></div>
+      <div id="purple-ball-mobile"></div>
+      <div id="red-ball-mobile"></div>
+      <div id="noise"></div>
+      <div id="glass"></div>
       <div id="left-column">
         <p>Зарабатывайте<br>больше</p>
         <p>с WELBEX</p>
         <p>Развиваем и контролируем<br>продажи за вас</p>
       </div>
-      <div id="right-column"></div>
+      <div id="right-column">
+        <div id="present-wrap">
+          <span>Вместе с </span>
+          <span>бесплатной<br></span>
+          <span>консультацией </span>
+          <span>мы дарим:</span>
+        </div>
+        <div id="mobile-offer-wrap">
+          <div>
+            <div class="line"></div>
+            <span class="offer-text">skype аудит</span>
+          </div>
+          <div>
+            <div class="line"></div>
+            <span class="offer-text">30 виджетов</span>
+          </div>
+          <div>
+            <div class="line"></div>
+            <span class="offer-text">dashboard</span>
+          </div>
+          <div>
+            <div class="line"></div>
+            <span class="offer-text">месяц amocrm</span>
+          </div>
+        </div>
+        <div id="offer-wrap">
+          <div>
+            <p class="offer-header">виджеты</p>
+            <p class="offer-text">30 готовых<br>решений</p>
+          </div>
+          <div>
+            <p class="offer-header">dashboard</p>
+            <p class="offer-text">с показателями<br>вашего бизнеса</p>
+          </div>
+          <div>
+            <p class="offer-header">skype аудит</p>
+            <p class="offer-text">отдела продаж<br>и CRM системы</p>
+          </div>
+          <div>
+            <p class="offer-header">35 дней</p>
+            <p class="offer-text">использования<br>CRM</p>
+          </div>
+        </div>
+        <a id="button" href="#">
+          <div>Получить консультацию</div>
+        </a>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="footer-about">
+        <p class="footer-header">О компании</p>
+        <p class="footer-text">Партнёрская программа</p>
+        <p class="footer-text">Вакансии</p>
+      </div>
+      <div id="footer-menu">
+        <p class="footer-header">Меню</p>
+        <div id="fm-left">
+          <p class="footer-text">Расчёт стоимости</p>
+          <p class="footer-text">Услуги</p>
+          <p class="footer-text">Виджеты</p>
+          <p class="footer-text">Интеграции</p>
+          <p class="footer-text">Наши клиенты</p>
+        </div>
+        <div id="fm-right">
+          <p class="footer-text">Кейсы</p>
+          <p class="footer-text">Благодарственные письма</p>
+          <p class="footer-text">Сертификаты</p>
+          <p class="footer-text">Блог на Youtube</p>
+          <p class="footer-text">Вопрос / Ответ</p>
+        </div>
+      </div>
+      <div id="footer-contacts">
+        <p class="footer-header">Контакты</p>
+        <p class="footer-text">+7 555 555-55-55</p>
+        <div id="footer-socials">
+          <img src="./src/images/telegram.svg" alt="telegram">
+          <img src="./src/images/viber.svg" alt="phone">
+          <img src="./src/images/whatsapp.svg" alt="whatsapp">
+        </div>
+        <p class="footer-text">Москва, Путевой проезд 3с1, к 902</p>
+        <p id="all-rights">©WELBEX 2022. Все права защищены.</p>
+        <p id="confidentiality">Политика конфиденциальности</p>
+      </div>
+    </footer>
   </body>
 </html>

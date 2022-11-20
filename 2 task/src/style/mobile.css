@@ -1,0 +1,310 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+  @font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/Inter-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/Inter-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: Inter-Black;
+    src: url(../fonts/Inter-Black.ttf);
+  }
+
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+  }
+
+  #purple-light, #purple-ball, #red-ball, #small-red-ball, #welbex, #header-certificates, #phone-header-wrap, #contacts, #offer-wrap, #button {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    background: #0E1014;
+  }
+
+  #purple-light-mobile {
+    position: absolute;
+    width: 80.938vw;
+    height: 80.938vw;
+    left: 80.625vw;
+    top: 33.438vw;
+
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+  }
+
+  #red-light {
+    position: absolute;
+    width: 65.938vw;
+    height: 65.625vw;
+    left: -17.188vw;
+    top: 75.313vw;
+
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+  }
+
+  #yellow-light {
+    position: absolute;
+    width: 62.500vw;
+    height: 62.500vw;
+    left: -20.625vw;
+    top: 162.188vw;
+
+    background: #FCB045;
+    opacity: 0.4;
+    filter: blur(196px);
+  }
+
+  #purple-ball-mobile {
+    border-radius: 50%;
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 92.500vw;
+    top: 73.750vw;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+  }
+
+  #red-ball-mobile {
+    border-radius: 50%;
+
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 9.063vw;
+    top: 125.625vw;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+  }
+
+  #glass {
+    position: absolute;
+    width: 100vw;
+    height: 451px;
+    left: 0px;
+    top: 0px;
+    z-index: -100;
+
+    background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%);
+    backdrop-filter: blur(7.5px);
+  }
+
+  #noise {
+    position: absolute;
+    width: 320px;
+    height: 451px;
+    left: 0px;
+    top: 0px;
+
+    background: url(../images/noise.png);
+    mix-blend-mode: overlay;
+  }
+
+  #menu {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+  }
+
+  #menu p {
+    margin: 0;
+
+    font-family: Inter-Medium, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E4E5EA;
+  }
+
+  main {
+    padding: 40px 0 60px 15px;
+    height: 451px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  #left-column :nth-child(1) {
+    margin: 0;
+
+    font-family: Inter-Regular, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #E4E5EA;
+  }
+
+  #left-column :nth-child(2) {
+    margin: 0;
+
+    font-family: Inter-Black, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  #left-column :nth-child(3) {
+    margin: 15px 0 45px 0;
+
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+  }
+
+  #present-wrap :first-child,  #present-wrap :last-child {
+    margin: 0;
+
+    font-family: Inter-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+  }
+
+  #present-wrap :nth-child(2),  #present-wrap :nth-child(3) {
+    margin: 0;
+
+    font-family: Inter-Bold, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  #mobile-offer-wrap {
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: 118px 141px;
+    grid-column-gap: 15px;
+    grid-row-gap: 14px;
+  }
+
+  .line {
+    margin-right: 5px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #FCB045, #FD1D1D);
+    border-image-slice: 1;
+    box-sizing: border-box;
+    width: 10px;
+    height: 0px;
+  }
+
+  .offer-text {
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+  }
+
+  #mobile-offer-wrap > div {
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    padding: 45px 0 60px 15px;
+  }
+
+  .footer-header {
+    margin: 0 0 20px 0;
+
+    grid-area: header;
+
+    font-family: Inter-Bold, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+  }
+
+  .footer-text {
+    margin: 0 0 10px 0;
+
+    font-family: Inter-Regular, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E4E5EA;
+  }
+
+  #footer-menu {
+    margin: 30px 0 20px 0;
+
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "fm-left fm-right";
+    column-gap: 48px;
+  }
+
+  #fm-left {
+    grid-area: fm-left;
+  }
+
+  #fm-right {
+    grid-area: fm-right;
+  }
+
+  #footer-socials {
+    margin-bottom: 10px;
+
+    display: flex;
+    column-gap: 10px;
+  }
+
+  #footer-socials img {
+    width: 24px;
+    height: 24px;
+  }
+
+  #all-rights {
+    margin: 50px 0 0 0;
+
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E4E5EA;
+  }
+
+  #confidentiality {
+    margin: 5px 0 0 0;
+
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #E4E5EA;
+  }
+
+}
